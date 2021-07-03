@@ -4,7 +4,8 @@
   "description": "Jest playground",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,16 @@
   "bugs": {
     "url": "https://github.com/fnavarijo/jest-playground/issues"
   },
-  "homepage": "https://github.com/fnavarijo/jest-playground#readme"
+  "homepage": "https://github.com/fnavarijo/jest-playground#readme",
+  "devDependencies": {
+    "cz-emoji": "^1.3.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji"
+    },
+    "cz-emoji": {
+      "scopes": ["config", "matchers", "setup", "mocks", "snapshot", "coverage", "integration", "base"]
+    }
+  }
 }
