@@ -28,7 +28,16 @@
       "path": "./node_modules/cz-emoji"
     },
     "cz-emoji": {
-      "scopes": ["config", "matchers", "setup", "mocks", "snapshot", "coverage", "integration", "base"]
+      "scopes": [
+        "config",
+        "matchers",
+        "setup",
+        "mocks",
+        "snapshot",
+        "coverage",
+        "integration",
+        "base"
+      ]
     }
   }
 }
