@@ -46,8 +46,7 @@ test('1 + 2 to be equal 3', () => {
 })
 ```
 
-Some things to note:
-- The syntax of the code for the src code and test, is written now in TS.
+One important thing to note: *The syntax of the code for the src code and test, is written now in TS.*
 
 Using this approach, can help us validating our code functionality and type checking. If we change the test code to the following:
 ``` ts
