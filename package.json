@@ -4,7 +4,7 @@
   "description": "Jest playground",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "commit": "cz"
   },
   "repository": {
@@ -21,7 +21,11 @@
   },
   "homepage": "https://github.com/fnavarijo/jest-playground#readme",
   "devDependencies": {
-    "cz-emoji": "^1.3.1"
+    "@types/jest": "^26.0.23",
+    "cz-emoji": "^1.3.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
   },
   "config": {
     "commitizen": {
